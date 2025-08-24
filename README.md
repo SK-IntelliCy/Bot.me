@@ -1,7 +1,12 @@
-## Robot Package Template
+# LiDAR Integration and Robot Simulation in ROS
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+This project demonstrates the integration of a LiDAR sensor with a robot in **ROS (Robot Operating System)** and visualization using **RViz** and **Gazebo**.  
+The robot model was created with URDF/Xacro, equipped with a LiDAR sensor, and controlled using the **TurtleBot package** for navigation and movement.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `bot_me` to whatever your project's name is.
+---
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+## Features
+- ✅ URDF robot model with LiDAR sensor attached  
+- ✅ Visualization in **RViz**  
+- ✅ Full robot simulation in **Gazebo**  
+- ✅ Basic movement and navigation using TurtleBot packages 
